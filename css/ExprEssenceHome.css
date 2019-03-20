@@ -1,5 +1,29 @@
+body {font-family: Courier;
+background-image: url(file:///Users/daniellaskinner/Documents/code/CFG/Therapy%20site/dots.jpg) opacity:0.3;
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+h1 {display: block;
+margin-block-start: 1em;}
+
+h2 {display: block;
+margin-block-start: 1em;}
+
 .topnav {color: black;}
-background {color: red;}
 
-body {color: firebrick;}
+.socialmedia {
+width: 80px;
+padding: 10px;
+border-style: dashed;
+border-color: rgb(150,150,200,0.75);
+flex-direction: row-reverse;
+border-radius: 20px 20px 20px 20px;
+}
 
+.icon {
+	justify-content: center;
+	display: flex;
+}
+
+.button { size: 200px; }
