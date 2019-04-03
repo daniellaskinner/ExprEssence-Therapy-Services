@@ -89,3 +89,15 @@ width:100%;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+a{
+  color:black;
+}
+
+
+.navigationFun{
+  display: flex;
+  flex:3;
+  justify-content: space-around;
+}
+
