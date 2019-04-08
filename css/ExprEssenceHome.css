@@ -1,4 +1,4 @@
-body {font-family: arial;
+body {font-family: "arial";
 background-image: url(file:///Users/daniellaskinner/Documents/code/CFG/Therapy%20site/dots.jpg) opacity:0.3;
 background-repeat: no-repeat;
 background-size: cover;}
@@ -101,3 +101,19 @@ a{
   justify-content: space-around;
 }
 
+.container-border-outline{
+font-size: 50px;  
+}
+
+
+/* css for about us page*/
+.photo {
+  display: flex
+  padding:30px;
+  margin:0 auto;
+  border-radius: 200px};
+}
+
+.bio {
+  line-height: 2;
+}
