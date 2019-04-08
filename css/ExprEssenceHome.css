@@ -7,20 +7,28 @@ background-size: cover;}
 h1 {display: block;
 text-align: center;}
 
-h2 {display: block;
-text-align: center;}
+h3 {display: block;
+text-align: center;
+}
+
+/* .input{
+  box-shadow: rgb(244, 188, 66);
+}
+*/
+
 
 .topnav {color: black;
 text-align: center;
 padding: 20px;}
 
+/*
 .socialmedia {
-width: 80px;
-padding: 10px;
-border-style: dashed;
-border-color: rgb(150,150,200,0.75);
-flex-direction: row-reverse;
-border-radius: 40px 40px 40px 40px;
+  width: 80px;
+  padding: 10px;
+  border-style: dashed;
+  border-color: rgb(150,150,200,0.75);
+  flex-direction: row-reverse;
+  border-radius: 40px 40px 40px 40px;
 }
 
 .icon {
@@ -29,15 +37,18 @@ border-radius: 40px 40px 40px 40px;
 }
 
 .button { size: 200px; }
+*/
 
-.col-sm {padding: 20px;
-text-align: center;
+.col-sm {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .border-outline {
 	border-style: solid;
 	border-width: 5px;
-  	border-color: rgb(244, 188, 66, 0.5);
+  border-color: rgb(244, 188, 66, 0.5);
 }
 
 .image_scroll {height: auto;
@@ -114,17 +125,29 @@ font-size: 50px;
   border-radius: 200px};
 }
 
-.bio {
-  line-height: 2;
+.about_us {
+  text-align: center;
+  font-size: 1em;
+  line-height: 2.3;
+  padding: 10px;
+ 
 }
 
 .carousel-inner {
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
-
-  background-size: 50px 50px;
+  padding: 3px;
 }
 
 #carouselExampleFade {
+background-size: 100px 100px;
 background-color: rgba(66, 244, 229, 0.5);
+padding: 150px;
 }
+
+/* css for contact us page */
+
+.contact_form {
+
+}
+
