@@ -117,3 +117,14 @@ font-size: 50px;
 .bio {
   line-height: 2;
 }
+
+.carousel-inner {
+  font-size: 2em;
+  text-align: center;
+
+  background-size: 50px 50px;
+}
+
+#carouselExampleFade {
+background-color: rgba(66, 244, 229, 0.5);
+}
