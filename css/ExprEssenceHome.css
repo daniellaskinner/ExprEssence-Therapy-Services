@@ -16,6 +16,10 @@ h3 {
   text-align: center;
 }
 
+h4{
+  margin-left: 18px;
+}
+
 li{
   margin: 0 20px;
 }
@@ -64,6 +68,7 @@ button{
   height: 50px;
 }
 
+
 .socialButton{
   width: 40px;
   height: 40px;
@@ -72,8 +77,15 @@ button{
   object-fit: contain;
 }
 
+.socialButton:hover{
+  width: 55px;
+  height: 55px;
+  transition 0.6s ease;
+}
 
 /*CAROUSEL STYLING*/
+
+
 .image_scroll {
   height: auto;
   width:100%;
@@ -105,6 +117,24 @@ transition: 0.6s ease;}
 	border-style: solid;
 	border-width: 5px;
   border-color: rgb(244, 188, 66, 0.5);
+}
+
+.bd-example{
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+.grid{
+  background-color: pink;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+
+}
+
+.image{
+  width: 100px;
 }
 
 
@@ -270,6 +300,10 @@ padding: 150px;
   height: auto;
   max-width: 100%%;
   padding: 1px;
+}
+
+#sltBlurb{
+  padding:30px;
 }
 
 /* css for contact us page */
