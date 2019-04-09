@@ -41,6 +41,15 @@ text-align: center;
 padding: 20px;
 }
 
+/*CAROUSEL STYLING*/
+.image_scroll {height: auto;
+width:100%;}
+
+.carousel-inner{
+
+}
+
+.carousel-item
 
 /*TRY TO GET THE NAVBAR BUTTONS TO ENLARGE ON HOVERING
 .enlarge {
@@ -63,9 +72,6 @@ transition: 0.6s ease;}
 	border-width: 5px;
   border-color: rgb(244, 188, 66, 0.5);
 }
-
-.image_scroll {height: auto;
-width:100%;}
 
 
 /*Styling for drop down headers of different aspects of site*/
@@ -151,17 +157,53 @@ font-size: 50px;
   border-radius: 200px};
 }
 
-.about_us {
+.bio{
   text-align: center;
-  font-size: 1em;
+}
+
+.bio-container{
+  text-align: center;
+  justify-content: center;
+  padding: 120px;
+}
+
+.name{
+  font-size: 1.35em;
+}
+
+.role{
+  font-size: 1.05em;
+}
+
+.about-us {
+  text-align: center;
+  font-size: 1.3em;
   line-height: 2.3;
-  padding: 10px;
+  padding: 120px;
+  border-style: groove;
+  border-color: rgba(66, 244, 229, 0.5);
+  border-bottom: none;
  
+}
+
+.care-aims {
+  text-align: center;
+  font-size: 2em;
+  padding: 150px;
+  border-color: rgba(66, 244, 229, 0.5);
+  border-style: groove;
+}
+
+
+.about-us, .care-aims{
+border-right: none;
+border-left: none;
 }
 
 /* HOW TO BOLD SOME OF THE WORDS IN THE ABOUT US BLURB???? */
 .highlight {
-  text-decoration-style: bold, blue;
+  font-weight: bold;
+  color: rgba(66, 244, 229);
 }
 
 .carousel-inner {
@@ -174,6 +216,14 @@ font-size: 50px;
 background-size: 100px 100px;
 background-color: rgba(66, 244, 229, 0.5);
 padding: 150px;
+}
+
+/* css for SLT page */
+.SLT-PIC {
+  width: 100%;
+  height: auto;
+  max-width: 100%%;
+  padding: 1px;
 }
 
 /* css for contact us page */
