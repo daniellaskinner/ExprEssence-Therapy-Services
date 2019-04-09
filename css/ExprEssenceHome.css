@@ -1,4 +1,4 @@
-body {font-family: arial;
+body {font-family: 'Josefin Sans', sans-serif;;
 background-image: url(file:///Users/daniellaskinner/Documents/code/CFG/Therapy%20site/dots.jpg) opacity:0.3;
 background-repeat: no-repeat;
 background-size: cover;}
@@ -7,37 +7,61 @@ background-size: cover;}
 h1 {display: block;
 text-align: center;}
 
-h2 {display: block;
-text-align: center;}
+h3 {display: block;
+text-align: center;
+}
+
+li{margin: 0 20px;
+}
+
+p{margin: 0 20px;
+  padding: 10px;
+}
+
+h2{
+  margin: 0 10px;
+  padding-right: 10px;
+}
+
+button{
+  color: 
+  border-color: rgb(244, 188, 66, 0.5);
+  background-color: rgba(66, 244, 229, 0.5);
+
+}
+
+/* .input{
+  box-shadow: rgb(244, 188, 66);
+}
+*/
+
 
 .topnav {color: black;
 text-align: center;
-padding: 20px;}
-
-.socialmedia {
-width: 80px;
-padding: 10px;
-border-style: dashed;
-border-color: rgb(150,150,200,0.75);
-flex-direction: row-reverse;
-border-radius: 40px 40px 40px 40px;
+padding: 20px;
 }
 
-.icon {
-	justify-content: center;
-	display: flex;
+
+/*TRY TO GET THE NAVBAR BUTTONS TO ENLARGE ON HOVERING
+.enlarge {
+  transition: 0.6s ease;
 }
 
-.button { size: 200px; }
+.enlarge:hover{font-size: 1.2em;
+transition: 0.6s ease;}
+*/
 
-.col-sm {padding: 20px;
-text-align: center;
+
+.col-sm {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .border-outline {
 	border-style: solid;
 	border-width: 5px;
-  	border-color: rgb(244, 188, 66, 0.5);
+  border-color: rgb(244, 188, 66, 0.5);
 }
 
 .image_scroll {height: auto;
@@ -48,6 +72,7 @@ width:100%;}
 /* Dropdown Button */
 
 
+/*get rid of box shadow if don't want teal glow*/
 .dropbtn {
   background-color: white;
   color: black;
@@ -55,7 +80,14 @@ width:100%;}
   font-size: 16px;
   border: none;
   float: left;
+  border-radius: 70px 100px 70px 100px;
 }
+
+/* Change color of navbar buttons/links on hover */
+.dropbtn:hover {
+  background-color: rgba(66, 244, 229, 0.5);
+  box-shadow: 0px 8px 16px 0px rgba(66, 244, 229, 0.5);
+  }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -69,8 +101,13 @@ width:100%;}
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(66, 244, 229, 0.5);
   z-index: 1;
+  border-radius: 25px;
+  border: 2px;
+  padding: 20px; 
+  width: 200px;
+  height: 200px;
 }
 
 /* Links inside the dropdown */
@@ -82,13 +119,13 @@ width:100%;}
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgba(66, 244, 229, 0.5);}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: rgba(66, 244, 229, 0.5);}
 
 a{
   color:black;
@@ -99,5 +136,49 @@ a{
   display: flex;
   flex:3;
   justify-content: space-around;
+}
+
+.container-border-outline{
+font-size: 50px;  
+}
+
+
+/* css for about us page*/
+.photo {
+  display: flex
+  padding:30px;
+  margin:0 auto;
+  border-radius: 200px};
+}
+
+.about_us {
+  text-align: center;
+  font-size: 1em;
+  line-height: 2.3;
+  padding: 10px;
+ 
+}
+
+/* HOW TO BOLD SOME OF THE WORDS IN THE ABOUT US BLURB???? */
+.highlight {
+  text-decoration-style: bold, blue;
+}
+
+.carousel-inner {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 3px;
+}
+
+#carouselExampleFade {
+background-size: 100px 100px;
+background-color: rgba(66, 244, 229, 0.5);
+padding: 150px;
+}
+
+/* css for contact us page */
+
+.contact_form {
+
 }
 
