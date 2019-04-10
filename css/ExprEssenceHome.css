@@ -133,8 +133,13 @@ transition: 0.6s ease;}
 
 }
 
-.image{
+img{
   width: 100px;
+}
+
+
+.image{
+  width: 10px;
 }
 
 
