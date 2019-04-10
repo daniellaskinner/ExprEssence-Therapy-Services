@@ -1,0 +1,11 @@
+/* css for SLT page */
+.SLT-PIC {
+  width: 100%;
+  height: auto;
+  max-width: 100%%;
+  padding: 1px;
+}
+
+#sltBlurb{
+  padding:30px;
+}

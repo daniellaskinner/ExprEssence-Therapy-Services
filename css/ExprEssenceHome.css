@@ -3,7 +3,6 @@
   width: 30%;
   margin: 1.66%;
   float: left;
-
 }
 
 .tileText{
@@ -16,11 +15,9 @@ img{
   width: 100px;
 }
 
-
 .image{
   width: 10px;
 }
-
 
 .col-sm {
   padding: 20px;
@@ -40,10 +37,7 @@ img{
 .bd-example{
   max-height: 100%;
   max-width: 100%;
-
 }
-
-
 
 body {
   font-family: 'Josefin Sans', sans-serif;;
@@ -51,7 +45,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 h1 {
   display: block;
@@ -75,7 +68,6 @@ p{margin: 0 20px;
   padding: 10px;
 }
 
-
 #top{
   margin: 5px 50px 10px 5px;
 }
@@ -83,21 +75,6 @@ p{margin: 0 20px;
 h2{
   font-size: 2.5em;
 }
-
-
-
-/* 
-button{
-  color:
-  border-color rgb(244, 188, 66, 0.5);
-  background-color: rgba(66, 244, 229, 0.5);
-}
-
-.input{
-  box-shadow: rgb(244, 188, 66);
-}
-*/
-
 
 .topnav {
   color: black;
@@ -118,7 +95,6 @@ button{
   height: 50px;
 }
 
-
 .socialButton{
   width: 40px;
   height: 40px;
@@ -132,7 +108,6 @@ button{
   height: 55px;
   transition 0.6s ease;
 }
-
 
 /*GRID SYSTEM STYLING*/
   .photo-size{
@@ -150,7 +125,6 @@ button{
 
 /*CAROUSEL STYLING*/
 
-
 .image_scroll {
   height: auto;
   width:100%;
@@ -161,7 +135,6 @@ button{
 }
 
 .carousel-item
-
 
 a{
   color:black;
@@ -177,7 +150,6 @@ a{
 .container-border-outline{
   font-size: 50px;  
 }
-
 
 /* css for about us page*/
 .photo {
@@ -213,7 +185,6 @@ a{
   border-style: groove;
   border-color: rgba(66, 244, 229, 0.5);
   border-bottom: none;
- 
 }
 
 .care-aims {
@@ -223,7 +194,6 @@ a{
   border-color: rgba(66, 244, 229, 0.5);
   border-style: groove;
 }
-
 
 .about-us, .care-aims{
 border-right: none;
@@ -268,7 +238,6 @@ padding: 150px;
 
 .contact_form {
 }
-
 
 /*Styling for drop down headers on home page*/
 /* Dropdown Button */

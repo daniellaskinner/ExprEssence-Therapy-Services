@@ -1,0 +1,28 @@
+/*CAROUSEL STYLING*/
+
+.image_scroll {
+  height: auto;
+  width:100%;
+}
+
+.carousel-inner{
+
+}
+
+.carousel-item
+
+
+a{
+  color:black;
+}
+
+.navigationFun{
+  display: flex;
+  flex:3;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.container-border-outline{
+  font-size: 50px;  
+}
