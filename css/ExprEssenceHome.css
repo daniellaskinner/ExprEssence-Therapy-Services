@@ -6,6 +6,12 @@
 
 }
 
+.tileText{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10px; 
+}
+
 img{
   width: 100px;
 }
@@ -14,7 +20,6 @@ img{
 .image{
   width: 10px;
 }
-
 
 
 .col-sm {
