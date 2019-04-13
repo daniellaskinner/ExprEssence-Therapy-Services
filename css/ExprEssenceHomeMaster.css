@@ -1,29 +1,11 @@
-.grid{
+/*.grid{
   background-color: pink;
   width: 30%;
   margin: 1.66%;
   float: left;
-}
 
-.tileText{
-  font-size: 3em;
-  text-align: center;
-  padding-top: 10px; 
 }
-
-img{
-  width: 100px;
-}
-
-.image{
-  width: 10px;
-}
-
-.col-sm {
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-}
+*/
 
 
 /*
@@ -37,6 +19,7 @@ img{
 .bd-example{
   max-height: 100%;
   max-width: 100%;
+
 }
 
 body {
@@ -76,6 +59,21 @@ h2{
   font-size: 2.5em;
 }
 
+
+
+/* 
+button{
+  color:
+  border-color rgb(244, 188, 66, 0.5);
+  background-color: rgba(66, 244, 229, 0.5);
+}
+
+.input{
+  box-shadow: rgb(244, 188, 66);
+}
+*/
+
+
 .topnav {
   color: black;
   text-align: center;
@@ -95,6 +93,7 @@ h2{
   height: 50px;
 }
 
+
 .socialButton{
   width: 40px;
   height: 40px;
@@ -109,135 +108,50 @@ h2{
   transition 0.6s ease;
 }
 
+
 /*GRID SYSTEM STYLING*/
-  .photo-size{
-    width: 100%
-    height  550px;
-    background-size: cover;
-    background-position: center;
-    padding: 5px;
-    margin: auto;
-  }
+  
+.tileText{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10px; 
+}
+
+img{
+  width: 100px;
+}
+
+
+.image{
+  width: 10px;
+}
+
+
+.col-sm {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.photo-size{
+  width: 100%
+  height  550px;
+  background-size: cover;
+  background-position: center;
+  padding: 5px;
+  margin: auto;
+}
 
   .tiles{
     background: rgba(66, 244, 229, 0.2);
   }
 
-/*CAROUSEL STYLING*/
-
-.image_scroll {
+  .image_scroll {
   height: auto;
   width:100%;
 }
 
-.carousel-inner{
-
-}
-
-.carousel-item
-
-a{
-  color:black;
-}
-
-.navigationFun{
-  display: flex;
-  flex:3;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.container-border-outline{
-  font-size: 50px;  
-}
-
-/* css for about us page*/
-.photo {
-  display: flex
-  padding:30px;
-  margin:0 auto;
-  border-radius: 200px};
-}
-
-.bio{
-  text-align: center;
-}
-
-.bio-container{
-  text-align: center;
-  justify-content: center;
-  padding: 120px;
-}
-
-.name{
-  font-size: 1.35em;
-}
-
-.role{
-  font-size: 1.05em;
-}
-
-.about-us {
-  text-align: center;
-  font-size: 1.3em;
-  line-height: 2.3;
-  padding: 120px;
-  border-style: groove;
-  border-color: rgba(66, 244, 229, 0.5);
-  border-bottom: none;
-}
-
-.care-aims {
-  text-align: center;
-  font-size: 2em;
-  padding: 150px;
-  border-color: rgba(66, 244, 229, 0.5);
-  border-style: groove;
-}
-
-.about-us, .care-aims{
-border-right: none;
-border-left: none;
-}
-
-/* HOW TO BOLD SOME OF THE WORDS IN THE ABOUT US BLURB???? */
-.highlight {
-  font-weight: bold;
-  color: rgba(66, 244, 229);
-}
-
-.carousel-inner {
-  font-size: 1.8em;
-  text-align: center;
-  padding: 3px;
-}
-
-#carouselExampleFade {
-background-size: 100px 100px;
-background-color: rgba(66, 244, 229, 0.5);
-padding: 150px;
-}
-
-/* css for SLT page */
-.SLT-PIC {
-  width: 100%;
-  height: auto;
-  max-width: 100%%;
-  padding: 1px;
-}
-
-#sltBlurb{
-  padding:30px;
-}
-
-/* css for contact us page */
-
-#contactForm{
-  padding: 70px;
-}
-
-.contact_form {
-}
 
 /*Styling for drop down headers on home page*/
 /* Dropdown Button */
@@ -265,9 +179,10 @@ padding: 150px;
   }
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
-  display: inline-block;
+ /* display: inline-block;*/
   }
 
 /* Dropdown Content (Hidden by Default) */
